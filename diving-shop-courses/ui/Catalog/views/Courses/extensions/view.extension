@@ -1,0 +1,5 @@
+{
+	"description": "Courses view",
+	"extensionPoint": "launchpad-diving-shop-Catalog-view",
+	"module": "diving-shop-courses/ui/Catalog/views/Courses/extensions/view.js"
+}

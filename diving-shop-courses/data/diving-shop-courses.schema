@@ -1,0 +1,94 @@
+{
+    "schema": {
+        "structures": [
+            {
+                "name": "DIVING_SHOP_COURSES",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "COURSE_ID"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "COURSE_NAME"
+                    }, {
+                        "type": "INTEGER",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "COURSE_INSTRUCTOR"
+                    }]
+            }, {
+                "name": "DIVING_SHOP_STUDENTS",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "STUDENT_ID"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "STUDENT_NAME"
+                    }, {
+                        "type": "VARCHAR",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "STUDENT_EMAIL"
+                    }]
+            }, {
+                "name": "DIVING_SHOP_CLASSES",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "CLASS_ID"
+                    }, {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "nullable": true,
+                        "name": "CLASS_COURSE"
+                    }, {
+                        "type": "DATE",
+                        "length": 20,
+                        "nullable": true,
+                        "name": "CLASS_START_DATE"
+                    }]
+            }, {
+                "name": "DIVING_SHOP_CLASS_STUDENTS",
+                "type": "TABLE",
+                "columns": [
+                    {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "primaryKey": true,
+                        "identity": true,
+                        "nullable": true,
+                        "name": "CLASS_STUDENT_ID"
+                    }, {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "nullable": true,
+                        "name": "CLASS_STUDENT_CLASS"
+                    }, {
+                        "type": "INTEGER",
+                        "length": 0,
+                        "nullable": true,
+                        "name": "CLASS_STUDENT_STUDENT"
+                    }]
+            }]
+    }
+}

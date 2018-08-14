@@ -1,0 +1,5 @@
+{
+	"description": "Courses tiles",
+	"extensionPoint": "launchpad-diving-shop-tiles",
+	"module": "diving-shop-courses/ui/Courses/views/Students/extensions/tile/tile.js"
+}

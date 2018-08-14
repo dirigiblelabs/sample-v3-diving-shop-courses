@@ -1,0 +1,5 @@
+{
+	"description": "Courses perspective",
+	"extensionPoint": "launchpad-diving-shop-perspective",
+	"module": "diving-shop-courses/ui/Courses/extensions/perspective/perspective.js"
+}

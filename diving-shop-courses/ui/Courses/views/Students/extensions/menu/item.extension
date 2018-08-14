@@ -1,0 +1,5 @@
+{
+	"description": "Students menu",
+	"extensionPoint": "shell-diving-shop-courses-menu",
+	"module": "diving-shop-courses/views/Students/menu/item.js"
+}

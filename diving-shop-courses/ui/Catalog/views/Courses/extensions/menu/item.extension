@@ -1,0 +1,5 @@
+{
+	"description": "Courses menu",
+	"extensionPoint": "shell-diving-shop-courses-menu",
+	"module": "diving-shop-courses/views/Courses/menu/item.js"
+}

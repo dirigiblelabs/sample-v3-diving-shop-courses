@@ -1,0 +1,5 @@
+{
+	"description": "Students view",
+	"extensionPoint": "launchpad-diving-shop-Courses-view",
+	"module": "diving-shop-courses/ui/Courses/views/Students/extensions/view.js"
+}

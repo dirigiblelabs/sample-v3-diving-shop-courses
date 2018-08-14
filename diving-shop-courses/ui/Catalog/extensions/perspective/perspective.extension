@@ -1,0 +1,5 @@
+{
+	"description": "Catalog perspective",
+	"extensionPoint": "launchpad-diving-shop-perspective",
+	"module": "diving-shop-courses/ui/Catalog/extensions/perspective/perspective.js"
+}
